@@ -1,0 +1,7 @@
+name: 'linkfactory_common'
+type: module
+description: 'The custom module for test task.'
+core_version_requirement: ^8 || ^9
+package: 'Custom'
+dependencies:
+  -drupal:block

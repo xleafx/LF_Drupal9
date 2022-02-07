@@ -1,0 +1,17 @@
+uuid: 048b8552-69b7-44d5-8fde-cbf303dc3e0a
+langcode: en
+status: true
+dependencies: {  }
+id: dev_config
+label: dev_config
+description: ''
+weight: 0
+folder: ../config/dev
+module:
+  stage_file_proxy: 0
+theme: {  }
+blacklist:
+  - stage_file_proxy.settings
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

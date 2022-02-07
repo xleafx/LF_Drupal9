@@ -1,0 +1,25 @@
+uuid: c7f6beda-d747-484d-a66e-f86dfbaba067
+langcode: en
+status: true
+dependencies:
+  module:
+    - linkfactory_common
+    - system
+  theme:
+    - olivero
+id: article_nodes_block
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: article_nodes_block
+settings:
+  id: broken
+  label: 'Article nodes block'
+  label_display: visible
+  provider: linkfactory_common
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/4
